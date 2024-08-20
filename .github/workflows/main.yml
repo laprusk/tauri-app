@@ -58,7 +58,7 @@ jobs:
         if: matrix.platform == 'macos-latest'
         run: cp ./texts/macos.txt ./src-tauri/
 
-      -name: copy files (ubuntu)
+      - name: copy files (ubuntu)
         if: matrix.platform == 'ubuntu-22.04'
         run: cp ./texts/ubuntu.txt ./src-tauri/
 
